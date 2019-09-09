@@ -119,7 +119,7 @@ export default {
       // 表单
       formLogin: {
         username: 'admin',
-        password: 'eling',
+        password: 'pig',
         code: 'v9am'
       },
       // 校验
@@ -172,7 +172,8 @@ export default {
           // 具体需要传递的数据请自行修改代码
           this.login({
             username: this.formLogin.username,
-            password: this.formLogin.password
+            password: this.formLogin.password,
+            grant_type: 'password'
           })
             .then(() => {
               // console.log(res)
