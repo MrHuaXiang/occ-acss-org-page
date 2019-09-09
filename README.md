@@ -5,3 +5,8 @@
 [Gitee](https://gitee.com/fairyever/d2-admin-start-kit)
 
 test
+
+
+cnpm install -g @vue/cli
+
+cnpm install
